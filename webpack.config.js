@@ -6,10 +6,10 @@ const {BundleAnalyzerPlugin} = require('webpack-bundle-analyzer')
 
 module.exports = {
 
-    // externals: {
-    //   'react': 'React',
-    //   'react-dom' : 'ReactDOM'
-    // },
+    externals: {
+      'react': 'React',
+      'react-dom' : 'ReactDOM'
+    },
     entry: {
         'app': path.join(__dirname, 'index.js'),
     },
